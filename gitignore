@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VSCode / IDE settings
+.vscode/
+.idea/
+
+# Mac / Linux system files
+.DS_Store
+*.swp
+
+# Logs
+*.log
+
+# Streamlit cache
+.streamlit/
+
+# Model files (optional, if large)
+*.pkl
+
+# Ngrok tunnel data
+.ngrok2/

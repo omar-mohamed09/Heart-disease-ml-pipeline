@@ -1,0 +1,20 @@
+Ngrok Setup Instructions
+
+1. Make sure you have an ngrok account and copy your Authtoken from:
+   https://dashboard.ngrok.com/get-started/your-authtoken
+
+2. Add your Authtoken (replace <AUTHTOKEN> with your real one):
+   ngrok config add-authtoken <AUTHTOKEN>
+
+3. Run the Streamlit app locally (inside project root):
+   streamlit run ui/app.py
+
+4. In a new terminal window, start ngrok tunnel:
+   ngrok http 8501
+
+5. Copy the HTTPS Forwarding URL shown by ngrok (e.g., https://random-id.ngrok-free.app)
+   and share it with others to access your app.
+
+Notes:
+- Keep both terminals (Streamlit and ngrok) running while sharing the app.
+- Free ngrok accounts generate a new URL each time you start; upgrade for a fixed domain.
